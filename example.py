@@ -6,6 +6,7 @@ def tokens_lowercase(doc):
     #performs stemming and creates trigrams (name the final call to ana.analyze as "trigrams")
     '''Place your code here'''
     
+    
     #leave the rest of the code as is
     tok.set_content(doc.content())
     tokens, counts = [], []
